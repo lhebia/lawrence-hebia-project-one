@@ -253,10 +253,15 @@ footer h3 {
     padding: 2rem 0;
 }
 
-footer nav ul li:nth-child(2) a,
-footer nav ul li:nth-child(3) a,
-footer nav ul li:nth-child(4) a {
+footer nav ul li:nth-child(2),
+footer nav ul li:nth-child(3),
+footer nav ul li:nth-child(4) {
     padding-left: 2rem;
+}
+
+footer nav ul li a:focus,
+footer nav ul li a:hover {
+    color: #E85B26;
 }
 
 footer input {
@@ -277,6 +282,13 @@ footer button {
     color: white;
     background: #186684;
     text-transform: uppercase;
+}
+
+footer button:focus,
+footer button:hover {
+    border: 2px solid #186684;
+    color: white;
+    background: #E85B26;
 }
 
 footer div:last-child {
