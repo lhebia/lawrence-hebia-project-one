@@ -189,16 +189,16 @@ h1 span {
     background-image: url('/assets/image-5@2x.png');
     background-size: cover;
     background-position: left -400px top 0;
-    height: 95vh;
+    height: 80vh;
     background-color: #F4F4F4;
-    padding-top: 7vw;
+    padding-top: 6vh;
 }
 
 .middle-menu nav {
     background-color: #F4F4F4;
     width: 70vw;
     margin: 0 auto;
-    padding: 5rem 2rem 2rem 2rem;
+    padding: 3rem 2rem 2rem 2rem;
 }
 
 .middle-menu nav ul li {
@@ -208,6 +208,16 @@ h1 span {
 .middle-menu nav ul li a {
     font-family: 'Catamaran', sans-serif;
     font-size: 2rem;
+}
+
+.middle-menu nav ul li a:hover,
+.middle-menu nav ul li a:focus {
+    color: #E85B26;
+}
+
+.middle-menu nav ul li i:hover,
+.middle-menu nav ul li i:focus {
+    color: #186684;
 }
 
 .middle-menu nav ul li a i {
