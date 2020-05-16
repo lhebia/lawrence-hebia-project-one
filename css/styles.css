@@ -75,6 +75,14 @@ header {
 }
 
 header nav li {
+    visibility: hidden;
+}
+
+.social-icons li {
+    visibility: hidden;
+}
+
+header nav li {
     padding: 1rem;
 }
 
@@ -313,15 +321,16 @@ footer div:last-child {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 320px) {
-    /* body {
+@media (max-width: 410px) {
+    body {
         font-size: 16px;
-    } */
-    header nav li {
-        visibility: hidden;
     }
 
-    .social-icons li {
-        visibility: hidden;
+    .services-section article {
+        padding-top: 0;
     }
+}
+
+@media (max-width: 940px) {
+    
 }
