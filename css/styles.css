@@ -400,4 +400,16 @@ footer div:last-child {
         float: none;
     }
 
+    .giving-section div {
+        width: 30%;
+    }
+
+    .giving-section div img {
+        margin: 0;
+    }
+
+    .giving-section article {
+        width: 70%;
+    }
+
 }
