@@ -389,7 +389,11 @@ footer div:last-child {
 
     .services-section article {
         width: 50%;
-        padding: 3rem 0 3rem 0;
+        padding: 2.8rem 0 2.8rem 0;
+    }
+
+    .services-section p {
+        text-align: left;
     }
 
     .dont-float {
