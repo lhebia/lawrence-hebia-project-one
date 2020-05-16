@@ -41,7 +41,8 @@ nav li {
 h1, 
 h2, 
 h3, 
-button, 
+button,
+header nav li a, 
 a {
     color: #186684;
 } 
@@ -78,8 +79,22 @@ header nav li {
     visibility: hidden;
 }
 
+header nav li a:hover,
+header nav li a:focus {
+    color: #E85B26;
+}
+
 .social-icons li {
     visibility: hidden;
+}
+
+.social-icons li i {
+    color: #E85B26;
+}
+
+.social-icons li a i:hover,
+.social-icons li a i:focus {
+    color: #186684;
 }
 
 header nav li {
@@ -120,8 +135,7 @@ nav ul li {
 }
 
 .centered-nav {
-    width: 50%;
-    margin: auto;
+    text-align: center;
 }
 
 h1 span {
@@ -331,6 +345,32 @@ footer div:last-child {
     }
 }
 
-@media (max-width: 940px) {
-    
+@media (min-width: 940px) {
+    header {
+        background-position: center;
+    }
+    header nav li {
+        visibility: visible;
+    }
+
+    .hero-text-container {
+        left: 45%;
+        font-size: 4.5rem;
+    }
+
+    .social-icons {
+        float: right;
+        margin-right: 2rem;
+        margin-top: 20%;
+    }
+
+    .social-icons li {
+        visibility: visible;
+        padding: 0.5rem;
+    }
+
+    .menu-toggle {
+        visibility: hidden;
+    }
+
 }
