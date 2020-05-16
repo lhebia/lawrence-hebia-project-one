@@ -373,4 +373,27 @@ footer div:last-child {
         visibility: hidden;
     }
 
+    .float-right{
+        width: 50%;
+        float: right;
+    }
+
+    .services-section div img {
+        position: static;
+    }
+
+    .float-left {
+        width: 50%;
+        float: left;
+    }
+
+    .services-section article {
+        width: 50%;
+        padding: 3rem 0 3rem 0;
+    }
+
+    .dont-float {
+        float: none;
+    }
+
 }
