@@ -71,6 +71,7 @@ header {
     background-repeat: no-repeat;
     background-position: left -330px top 0;
     height: 100vh;
+    position: relative;
 }
 
 header nav li {
@@ -89,11 +90,12 @@ header nav li {
 }
 
 .menu-toggle {
-    float: right;
+    /* float: right; */
     padding: 2rem;
-    /* margin-left: 85%;
-    padding-top: 5%; */
     cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
 }
 
 .menu-toggle span {
@@ -306,21 +308,20 @@ footer div:last-child {
     color: #F4F4F4;
     padding: 1rem;
 }
-/* 
-.fonts {
-    font-family: 'Catamaran', sans-serif;
-    font-family: 'Nova Flat', cursive;
-} */
+
+
+
+/* MEDIA QUERIES */
 
 @media (min-width: 320px) {
     /* body {
         font-size: 16px;
     } */
     header nav li {
-        display: none;
+        visibility: hidden;
     }
 
     .social-icons li {
-        display: none;
+        visibility: hidden;
     }
 }
