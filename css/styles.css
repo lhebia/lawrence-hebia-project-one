@@ -53,7 +53,7 @@ a {
 
 h2 {
     font-size: 2.1rem;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 2rem 0 1rem;
 }
 
 p {
@@ -415,18 +415,22 @@ footer div:last-child {
         text-align: left;
     }
 
+    .giving-section h2 {
+        padding: 2rem 1rem 1rem 0;
+    }
+
     .giving-section h2,
     .giving-section button {
         display: inline-block;
     }
 
-    .giving-section article p {
+    /* .giving-section article p {
         padding: 0 1rem;
-    }
+    } */
 
-    .giving-section button {
+    /* .giving-section button {
         margin-left: 1rem;
-    }
+    } */
 
     .middle-menu {
         height: auto;
@@ -456,6 +460,24 @@ footer div:last-child {
 
     .gram-section ul li:nth-child(2) {
         margin: 0 1rem;
+    }
+
+    footer h3,
+    footer p {
+        text-align: left;
+    }
+
+    footer p:last-child {
+        text-align: center;
+    }
+
+    footer input {
+        width: 69%;
+    }
+
+    footer button {
+        width: 30%;
+        display: inline;
     }
 
 }
