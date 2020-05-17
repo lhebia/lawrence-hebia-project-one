@@ -443,4 +443,19 @@ footer div:last-child {
         padding-left: 11%;
     }
 
+    .gram-section ul li {
+        width: calc((100% - 2rem) / 3);
+        margin-left: 0;
+        padding-bottom: 3rem;
+        float: left;
+    }
+
+    .gram-section ul li:last-child {
+        display: block;
+    }
+
+    .gram-section ul li:nth-child(2) {
+        margin: 0 1rem;
+    }
+
 }
