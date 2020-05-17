@@ -105,11 +105,15 @@ header nav li {
     background-color: rgba(227, 228, 234, 0.89);
     max-width: 365px;
     width: 70%;
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     padding: 1.5rem 1rem;
     position: absolute;
     top: 50%;
     left: 20%;
+}
+
+h1 span {
+    display: block;
 }
 
 .menu-toggle {
@@ -136,10 +140,6 @@ nav ul li {
 
 .centered-nav {
     text-align: center;
-}
-
-h1 span {
-    display: block;
 }
 
 .services-section div {
@@ -188,7 +188,6 @@ h1 span {
 .giving-section,
 .giving-section article {
     background-color: #F4F4F4;
-    /* position: relative; */
     padding: 1rem 0;
 }
 
@@ -354,8 +353,12 @@ footer div:last-child {
     }
 
     .hero-text-container {
-        left: 45%;
-        font-size: 4.5rem;
+        max-width: 600px;
+        top: 45%;
+        left: 40%;
+        font-size: 7.0rem;
+        width: 40%;
+        height: 35%;
     }
 
     .social-icons {
