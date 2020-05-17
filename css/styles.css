@@ -389,7 +389,7 @@ footer div:last-child {
 
     .services-section article {
         width: 50%;
-        padding: 2.8rem 0 2.8rem 0;
+        padding: 2.5% 2.5%;
     }
 
     .services-section p {
@@ -405,11 +405,42 @@ footer div:last-child {
     }
 
     .giving-section div img {
+        padding: 20% 2rem;
         margin: 0;
     }
 
     .giving-section article {
         width: 70%;
+        padding: 0;
+        text-align: left;
+    }
+
+    .giving-section h2,
+    .giving-section button {
+        display: inline-block;
+    }
+
+    .giving-section article p {
+        padding: 0 1rem;
+    }
+
+    .giving-section button {
+        margin-left: 1rem;
+    }
+
+    .middle-menu {
+        height: auto;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
+    }
+
+    .middle-menu nav {
+        margin: 10vh auto;
+    }
+
+    .middle-menu nav ul li {
+        float: left;
+        padding-left: 11%;
     }
 
 }
