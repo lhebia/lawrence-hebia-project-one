@@ -56,14 +56,14 @@ a {
     text-decoration: none;
 }
 
-h2 {
+h2,
+h3 {
     font-size: 2.1rem;
     padding: 2rem 0 1rem;
 }
 
 p {
-    line-height: 2rem;
-    letter-spacing: 0.05rem;
+    line-height: 1.45rem;
 }
 
 .wrapper {
@@ -160,8 +160,6 @@ nav ul li {
 
 .services-section div img {
     position: absolute;
-    top: -65px;
-    left: 0px;
     z-index: -10;
 }
 
@@ -415,8 +413,10 @@ footer button:hover {
     }
 
     .giving-section div img {
-        padding: 20% 2rem;
+        /* padding: 20% 2rem; */
         margin: 0;
+        padding: 2rem 0 0 2rem;
+        float: right;
     }
 
     .giving-section article {
@@ -500,6 +500,14 @@ footer button:hover {
     }
 
     .giving-section div img {
-        width: 100%;
+        /* width: 100%; */
+        padding: 2rem 0 0 2rem;
+        float: right;
+    }
+}
+
+@media (min-width: 1200px) and (min-height: 900px) {
+    .services-section article {
+        padding: 2.3%;
     }
 }
