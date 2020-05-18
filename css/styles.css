@@ -9,15 +9,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 img { width: 100%; display: block; }
 
-/* Start of my styling */
-
 /* .colors {
-    --main-text-base: #1F2022;
-    --main-title-base: #186684;
-    --primary-background: #F4F4F4;
-    --secondary-background: #E3E3EA;
-    --bright-highlight: #E85B26; 
+    main-text-base: #1F2022;
+    main-title-base: #186684;
+    primary-background: #F4F4F4;
+    secondary-background: #E3E3EA;
+    bright-highlight: #E85B26; 
 } */
+
+/* Start of my styling */
 
 body {
     font-size: 20px;
@@ -30,7 +30,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     width: 90%;
 }
@@ -66,10 +66,7 @@ p {
     line-height: 1.45rem;
 }
 
-.wrapper {
-    width: minmax(90%, 1200px);
-    margin: auto;
-}
+/* Header section */
 
 header {
     background-image: url('/assets/image-1@2x.png');
@@ -122,7 +119,6 @@ h1 span {
 }
 
 .menu-toggle {
-    /* float: right; */
     padding: 2rem;
     cursor: pointer;
     position: absolute;
@@ -146,6 +142,8 @@ nav ul li {
 .centered-nav {
     text-align: center;
 }
+
+/* "Services" & "Giving" section */
 
 .services-section div {
     height: 35vh;
@@ -211,6 +209,8 @@ nav ul li {
     padding: 0.7rem 3rem;
 }
 
+/* Middle menu and the Gram sections */
+
 .middle-menu {
     background-image: url('/assets/image-5@2x.png');
     background-size: cover;
@@ -222,6 +222,7 @@ nav ul li {
 
 .middle-menu nav {
     background-color: #F4F4F4;
+    max-width: 770px;
     width: 70vw;
     margin: 0 auto;
     padding: 3rem 2rem 2rem 2rem;
@@ -274,6 +275,8 @@ nav ul li {
 .gram-section ul li:last-child {
     display: none;
 }
+
+/* Footer section */
 
 footer {
     text-align: center;
@@ -353,6 +356,7 @@ footer button:hover {
     header {
         background-position: center;
     }
+
     header nav li {
         visibility: visible;
     }
@@ -397,7 +401,7 @@ footer button:hover {
 
     .services-section article {
         width: 50%;
-        padding: 2.5% 2.5%;
+        padding: 0 2.5%;
     }
 
     .services-section p {
@@ -433,14 +437,6 @@ footer button:hover {
     .giving-section button {
         display: inline-block;
     }
-
-    /* .giving-section article p {
-        padding: 0 1rem;
-    } */
-
-    /* .giving-section button {
-        margin-left: 1rem;
-    } */
 
     .middle-menu {
         height: auto;
@@ -485,7 +481,7 @@ footer button:hover {
 
     footer button {
         width: 30%;
-        display: inline;
+        display: inline-block;
     }
 
 }
@@ -496,11 +492,10 @@ footer button:hover {
     }
 
     .middle-menu nav ul li {
-        padding-left: 13.5%;
+        padding-left: 10.5%;
     }
 
     .giving-section div img {
-        /* width: 100%; */
         padding: 2rem 0 0 2rem;
         float: right;
     }
