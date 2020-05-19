@@ -146,7 +146,6 @@ nav ul li {
 /* "Services" & "Giving" section */
 
 .services-section div {
-    height: 35vh;
     position: relative;
 }
 
@@ -164,6 +163,10 @@ nav ul li {
 .services-section article {
     background-color: white;
 }
+
+.services-section p {
+        padding: 1.2rem 0;
+    }
 
 .services-section button,
 .giving-section button {
@@ -352,6 +355,12 @@ footer button:hover {
     }
 }
 
+@media (max-width: 940px) {
+    .services-section div {
+    height: 35vh;
+}
+}
+
 @media (min-width: 940px) {
     header {
         background-position: center;
@@ -498,11 +507,5 @@ footer button:hover {
     .giving-section div img {
         padding: 2rem 0 0 2rem;
         float: right;
-    }
-}
-
-@media (min-width: 1200px) and (min-height: 900px) {
-    .services-section article {
-        padding: 2.3%;
     }
 }
